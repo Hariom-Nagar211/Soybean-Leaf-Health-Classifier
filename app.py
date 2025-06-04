@@ -83,4 +83,4 @@ if uploaded_file is not None:
         confidence = score
 
     st.success(f"Prediction: **{pred_label}**")
-    st.write(f"Confidence: {confidence * 100:.2f}%")
+    # st.write(f"Confidence: {confidence * 100:.2f}%")
